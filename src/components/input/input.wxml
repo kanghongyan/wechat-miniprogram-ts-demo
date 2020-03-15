@@ -1,0 +1,23 @@
+<view class="m-input">
+    <view class="m-input__input_wrapper">
+        <input
+            class="m-input__default m-input__custom"
+            type="{{type}}"
+            name="{{name}}"
+            placeholder="{{placeholder}}"
+            maxlength="{{maxlength}}"
+            placeholder-class="m-input__placeholder_class_{{placeholderclasstype}}"
+            bindblur="bindblur"
+            bindinput="bindinput"
+            bindconfirm="bindconfirm"
+            bindfocus="bindfocus"
+            value="{{value}}"
+            adjust-position="{{false}}"
+            confirm-type="{{confirmtype}}"
+        />
+    </view>
+    <view class="m-input__icon_clear"
+          bindtap="handleClearInput"
+          hidden="{{!value.length}}"
+    ></view>
+</view>

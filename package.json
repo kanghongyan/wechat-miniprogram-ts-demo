@@ -1,0 +1,48 @@
+{
+    "name": "miniprogram_58yigou",
+    "version": "1.0.2",
+    "scripts": {
+        "compile": "./node_modules/typescript/bin/tsc",
+        "tsc": "node ./node_modules/typescript/lib/tsc.js",
+        "start": "cross-env NODE_ENV='development' gulp --gulpfile scripts/gulpfile.js",
+        "build:test": "cross-env NODE_ENV='test' gulp --gulpfile scripts/gulpfile_build.js",
+        "build:pro": "cross-env NODE_ENV='production' gulp --gulpfile scripts/gulpfile_build.js",
+        "mock": "node scripts/_mock/run.js",
+        "test": "jest",
+        "autoTest": "node scripts/autoTest.js",
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    },
+    "devDependencies": {
+        "cross-env": "^5.2.0",
+        "cz-conventional-changelog": "^2.1.0",
+        "del": "^5.0.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^6.1.0",
+        "gulp-inject": "^5.0.4",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-typescript": "^5.0.1",
+        "jest": "^24.9.0",
+        "json-server": "^0.15.0",
+        "miniprogram-api-typings": "^2.6.5-2",
+        "miniprogram-automator": "^0.5.8",
+        "miniprogram-simulate": "^1.0.8",
+        "node-sass": "^4.12.0",
+        "typescript": "^3.5.3"
+    },
+    "main": "index.js",
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "browserslist": [
+        "last 4 versions"
+    ]
+}

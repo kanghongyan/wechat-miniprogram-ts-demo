@@ -1,0 +1,56 @@
+{
+    "code": 0,
+    "msg": "成功",
+    "data": {
+        "total": 3,
+        "list": [{
+            "projectName": "xytest项目",
+            "paySuccessTime": "2019-08-13",
+            "deductAmount": "10",
+            "deductDesc": "是否水电费水电费的地方",
+            "payAmount": "10",
+            "confirmUseTime": null,
+            "applyUseTime": null,
+            "couponStatus": 1,
+            "couponStatusMsg": "待使用",
+            "cityCode": "1",
+            "cityName": "北京",
+            "couponId": "1008522539452752047",
+            "payBankCardNo": null,
+            "refundApplyTime": null,
+            "developerName": null
+        }, {
+            "projectName": "xytest项目",
+            "paySuccessTime": "2019-08-13",
+            "deductAmount": "10",
+            "deductDesc": "5000",
+            "payAmount": "10",
+            "confirmUseTime": null,
+            "applyUseTime": null,
+            "couponStatus": 1,
+            "couponStatusMsg": "待使用",
+            "cityCode": "1",
+            "cityName": "北京",
+            "couponId": "1008522539452752017",
+            "payBankCardNo": null,
+            "refundApplyTime": null,
+            "developerName": null
+        }, {
+            "projectName": "世纪花城",
+            "paySuccessTime": "2019-08-12",
+            "deductAmount": "200",
+            "deductDesc": "是否水电费水电费的地方",
+            "payAmount": "1",
+            "confirmUseTime": null,
+            "applyUseTime": null,
+            "couponStatus": 3,
+            "couponStatusMsg": "已使用",
+            "cityCode": "1",
+            "cityName": "北京",
+            "couponId": "1008522333294322280",
+            "payBankCardNo": null,
+            "refundApplyTime": null,
+            "developerName": null
+        }]
+    }
+}

@@ -1,0 +1,15 @@
+<view class="m-searchBar">
+    <view class="m-searchBar__icon_search"/>
+    <view class="m-searchBar__input_wrapper">
+        <m-input
+            placeholder="请搜索感兴趣的楼盘"
+            type="text"
+            placeholderclasstype="search"
+            class="m-input__custom"
+            confirmtype="search"
+            bind:confirm="handleSearch"
+            bind:focus="handleInputFocus"
+            bind:clear="handleClear"
+        />
+    </view>
+</view>

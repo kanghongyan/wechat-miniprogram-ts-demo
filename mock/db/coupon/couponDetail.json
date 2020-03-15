@@ -1,0 +1,20 @@
+{
+    "code": 0,
+    "msg": "xunqgc",
+    "data": {
+        "paySuccessTime": "yyyy-MM-dd hh:mm:ss",
+        "couponCode": "12345678",
+        "deductAmount": "2000011",
+        "deductDesc": "这里是抵用金额描述",
+        "payAmount": "1000011",
+        "projcetName": "名都国际三期",
+        "confirmUseTime": "yyyy-MM-dd hh:mm:ss",
+        "applyUseTime": "yyyy-MM-dd hh:mm:ss",
+        "couponStatus": 5,
+        "couponStatusMsg": "phxreigkc",
+        "cityCode": "eiilmby",
+        "cityName": "cbagd",
+        "payBankCardNo": "222",
+        "refundApplyTime": "1029-20-10 10:99"
+    }
+}

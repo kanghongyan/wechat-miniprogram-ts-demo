@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="p-index">
+    <!--城市切换-->
+    <view class="p-index__city_area">
+        <view class="p-index__city_selected"
+              data-show="{{showPageMask}}"
+              bindtap="handleSwitchCity"
+        >
+            <p>{{curCity.name}}</p>
+            <view class="p-index__city_icon p-index__city_icon_{{!showPageMask? 'down' : 'up'}}"/>
+        </view>
+        <search-bar
+            bind:inputconfirm="handleSearch"
+            bind:inputfocus="handleMaskTap"
+            bind:inputclear="handleSearch"
+        ></search-bar>
+    </view>
+    <!--活动列表-->
+    <view class="p-index__actList-gap">
+        首页
+    </view>
+
+
+    <mask hidden="{{!showPageMask}}"
+          bind:masktap="handleMaskTap"
+    />
+    <view class="p-index__cityPanel_pos">
+        <city-panel list="{{cityList}}"
+                    hidden="{{!showCityPanel}}"
+                    bind:selectcity="handleSelectCity"
+        />
+    </view>
+
+
+    <view class="t-footer-hold-height"/>
+
+</view>

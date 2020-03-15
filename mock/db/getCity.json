@@ -1,0 +1,42 @@
+{
+    "code": 0,
+    "msg": "wsvad",
+    "data": {
+        "currCityCode": "999",
+        "cityList": [
+            {
+                "itemValue": "vwurkjee",
+                "itemName": "成都"
+            },
+            {
+                "itemValue": "djbhlfncvt",
+                "itemName": "天津"
+            },
+            {
+                "itemValue": "liztspyof",
+                "itemName": "城市aa"
+            },
+            {
+                "itemValue": "liymy",
+                "itemName": "城市"
+            },
+            {
+                "itemValue": "jcsbbhu",
+                "itemName": "成都"
+            },
+            {
+                "itemValue": "vysgdpty",
+                "itemName": "辽宁"
+            },
+            {
+                "itemValue": "33",
+                "itemName": "上海"
+            },
+            {
+                "itemValue": "1",
+                "itemName": "北京"
+            }
+        ],
+        "currCityName": "哈尔滨"
+    }
+}

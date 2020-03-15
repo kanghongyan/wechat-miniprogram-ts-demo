@@ -1,0 +1,15 @@
+/**app.wxss**/
+.t-footer-hold-height {
+    height: 48px;
+}
+
+.t-icon-loc {
+    background-image: url("https://j1.somecdn.com.cn/jinrong/images/ems156472292871550c5e40f16127.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+button[disabled] {
+    background: #fff !important;
+    border: 2rpx solid #BBBFC8 !important;
+}

@@ -1,0 +1,82 @@
+/**index.wxss**/
+.p-index__city_area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    padding: 0 36rpx 20rpx 30rpx;
+    justify-content: center;
+    align-items: center;
+    height: 88rpx;
+    background: #fff;
+    z-index: 9999;
+    border-bottom: solid 1rpx #f9f9f9;
+}
+
+.p-index__actList-gap {
+    margin-top: 108rpx;
+    padding: 0 30rpx;
+    overflow: hidden;
+}
+
+.p-index__actList_hasMore {
+    color: #999999;
+    font-size: 26rpx;
+    font-weight: 400;
+    line-height:37rpx;
+    padding: 46rpx 0 120rpx 0;
+    text-align: center;
+}
+
+.p-index__actList_empty {
+    width: 500rpx;
+    background-image: url("https://j1.somecdn.com.cn/jinrong/images/ems15648146699633357597d7e801.png");
+    background-size: 500rpx 443rpx;
+    background-repeat: no-repeat;
+    color: #b9b9b9;
+    font-size: 24rpx;
+    font-weight: 400;
+    line-height:37rpx;
+    padding-top: 510rpx;
+    margin: 120rpx auto 0;
+    text-align: center;
+}
+
+.p-index__cityPanel_pos {
+    position: fixed;
+    top: 107rpx;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    border-top: solid 1rpx #f9f9f9;
+}
+
+.p-index__city_selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26rpx;
+    font-weight: 500;
+    line-height: 37rpx;
+    width: 112rpx;
+    margin-right: 20rpx;
+    height: 100%;
+}
+
+.p-index__city_icon {
+    margin-left: 20rpx;
+    width: 13rpx;
+    height: 7rpx;
+    background-size: 100% 100%;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAQCAMAAAAyEe/dAAAANlBMVEUAAABJSUk0NDQzMzM0NDQ3Nzc0NDQzMzM8PDwzMzMzMzM0NDQ0NDQzMzMzMzM0NDQ7OzszMzOs/85VAAAAEXRSTlMABrbHog7ohwr5zXzi0pVxDV0j1t4AAABeSURBVBjTZcxJDsAgDATBISE2gWz+/2fDAWlku68lNYqKaEFoXPI0QG22Ba02q4AY1ZmdZSKVtlCNSlvbslGd7R+i0g7Aq7egzVlQyUbNRs1GzUZ1lpWW9e13Hw3sB5UADBdEMNM6AAAAAElFTkSuQmCC");
+}
+
+.p-index__city_icon_up {
+    transform: rotateX(180deg);
+}
+
+.m-input {
+    height: 100%;
+}
+

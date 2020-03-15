@@ -1,0 +1,32 @@
+<!--miniprogram/custom-tab-bar/index.wxml-->
+<cover-view class="m-tab-bar"
+            hidden="{{hidden}}"
+>
+    <cover-view class="m-tab-bar__border"></cover-view>
+    <cover-view wx:for="{{list}}"
+                wx:key="index"
+                class="m-tab-bar__item"
+                data-path="{{item.pagePath}}"
+                data-index="{{index}}"
+                bindtap="switchTab"
+    >
+        <!--<button style="color: {{selected === index ? selectedColor : color}}"
+                hover-start-time="{{0}}"
+                open-type="{{index === 1 ? 'getPhoneNumber' : ''}}"
+                class="m-tab-bar__btn"
+                bindgetphonenumber="getPhoneNumber"
+        >
+            <cover-image class="m-tab-bar__icon" src="{{selected === index ? item.selectedIconPath : item.iconPath}}"></cover-image>
+            <cover-view class="m-tab-bar__text">{{item.text}}</cover-view>
+        </button>-->
+        <button style="color: {{selected === index ? selectedColor : color}}"
+                hover-start-time="{{0}}"
+                class="m-tab-bar__btn"
+        >
+            <cover-image class="m-tab-bar__icon" src="{{selected === index ? item.selectedIconPath : item.iconPath}}"></cover-image>
+            <cover-view class="m-tab-bar__text">{{item.text}}</cover-view>
+        </button>
+    </cover-view>
+
+    <cover-view class="{{hasMask? 'm-tab-bar__mask': ''}}"></cover-view>
+</cover-view>

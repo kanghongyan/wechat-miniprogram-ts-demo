@@ -1,0 +1,78 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"miniprogramRoot": "miniprogram/",
+	"compileType": "miniprogram",
+	"libVersion": "2.6.0",
+	"projectname": "miniprogram-ts-demo",
+	"scripts": {
+		"beforeCompile": "/Users/khongyan/.nvm/versions/node/v8.11.4/bin/npm  run tsc",
+		"beforePreview": "/Users/khongyan/.nvm/versions/node/v8.11.4/bin/npm run tsc",
+		"beforeUpload": "/Users/khongyan/.nvm/versions/node/v8.11.4/bin/npm run tsc"
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"appid": "wx61544cfd119648c7",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/projectDetail/projectDetail",
+					"pathName": "pages/projectDetail/projectDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/my/my",
+					"pathName": "pages/my/my",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "pages/couponBuy/couponBuy",
+					"pathName": "pages/couponBuy/couponBuy",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

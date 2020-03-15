@@ -1,0 +1,9 @@
+{
+    "code": 0,
+    "msg": "成功",
+    "data": {
+        "certifyStatus": 1,
+        "realName":"小红",
+        "mobile": "13233333333"
+    }
+}

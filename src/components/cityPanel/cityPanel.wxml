@@ -1,0 +1,25 @@
+<view class="m-cityPanel m-cityPanel__pos" hidden="{{hidden}}">
+    <view class="m-cityPanel__inner">
+        <block wx:if="{{list.length}}">
+            <block
+                wx:for="{{list}}"
+                wx:for-item="city"
+                wx:key="{{city.code}}"
+            >
+                <view class="m-cityPanel__item"
+                      data-citycode="{{city.code}}"
+                      data-cityname="{{city.name}}"
+                      bindtap="handleSelectCity"
+                >
+                    {{city.name}}
+                </view>
+            </block>
+        </block>
+
+        <block wx:else>
+            <view class="m-cityPanel__empty">
+                — 暂未有开通的城市 —
+            </view>
+        </block>
+    </view>
+</view>

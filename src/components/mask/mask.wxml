@@ -1,0 +1,5 @@
+<view class="m-mask"
+      hidden="{{hidden}}"
+      bindtap="handleTap"
+>
+</view>

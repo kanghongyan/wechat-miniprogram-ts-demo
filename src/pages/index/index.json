@@ -1,0 +1,10 @@
+{
+    "usingComponents": {
+        "mask": "/components/mask/mask",
+        "city-panel": "/components/cityPanel/cityPanel",
+        "search-bar": "/components/searchBar/searchBar"
+    },
+    "onReachBottomDistance": 150,
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+}

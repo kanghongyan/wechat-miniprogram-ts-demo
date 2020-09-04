@@ -27,7 +27,7 @@
         "miniprogram-api-typings": "^2.6.5-2",
         "miniprogram-automator": "^0.5.8",
         "miniprogram-simulate": "^1.0.8",
-        "node-sass": "^4.12.0",
+        "node-sass": "^4.13.1",
         "typescript": "^3.5.3"
     },
     "main": "index.js",

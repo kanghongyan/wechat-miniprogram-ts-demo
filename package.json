@@ -23,7 +23,7 @@
         "gulp-sass": "^4.0.2",
         "gulp-typescript": "^5.0.1",
         "jest": "^24.9.0",
-        "json-server": "^0.15.0",
+        "json-server": "^0.17.1",
         "miniprogram-api-typings": "^2.6.5-2",
         "miniprogram-automator": "^0.5.8",
         "miniprogram-simulate": "^1.0.8",
